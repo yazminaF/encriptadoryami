@@ -1,0 +1,151 @@
+
+.logo{
+    width: 60px;
+    padding: 8px ;
+    margin-top: auto;
+}
+
+body{
+    background-image: url('./fondo.jpg') ;
+    
+}
+  
+  .custom-loader {
+    width:76px;
+    height:12px;
+    display: flex;
+  }
+  .custom-loader:before,
+  .custom-loader:after {
+    content:"";
+    flex:1;
+    background:
+      radial-gradient(farthest-side         ,#cecce3 90%,#0000) center/12px 100%,
+      radial-gradient(farthest-side at right,#312c5e 90%,#0000) right /6px  100%;
+    background-repeat: no-repeat;
+    transform:scale(var(--s,1)) translate(0px) rotate(0);
+    animation:d10 2s infinite;
+  }
+  .custom-loader:after {
+    --s:-1;
+  }
+  @keyframes d10 {
+      25%      {transform:scale(var(--s,1)) translate(-10px) rotate(0);}
+      50%      {transform:scale(var(--s,1)) translate(-10px) rotate(1turn);}
+      75%,100% {transform:scale(var(--s,1)) translate(0px)   rotate(1turn);}
+  }
+
+
+
+.titulo{
+    background:#7b579bfa;
+    text-align: center;
+    padding: 50px;
+    text-overflow: clip;
+    color: rgba(237, 192, 228, 0.724);
+    font-style: italic;
+}
+
+/* este boton lo saque de la web yami */
+
+.custom-titulo {
+    margin: 0% 45%;
+    height:4px;
+    width:130px;
+    background:
+     linear-gradient(#766DF4 0 0),
+     linear-gradient(#766DF4 0 0),
+     #E4E4ED;
+   background-size: 60% 100%;
+   background-repeat: no-repeat;
+   animation: p6 3s infinite;
+ }
+ 
+ @keyframes p6 {
+   0%   {background-position:-150% 0,-150% 0}
+   66%  {background-position: 250% 0,-150% 0}
+   100% {background-position: 250% 0, 250% 0}
+ }
+
+
+ 
+.letras{
+    color: aliceblue;
+    max-width: 10px;
+    padding: 6px ;
+    font-size: 22px;
+    font-style: italic;
+    
+}
+
+form{
+    background: rgb(84, 44, 152);
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+
+h3{
+    color: aliceblue;
+    padding: 20px;
+    margin: 0% 40%;
+    
+    font-size: 20px;
+    font-style: italic;
+    
+    
+}
+   
+
+.candado{
+    width: 13pc;
+    float:right;
+    margin:15px 40%
+}
+
+
+
+
+.msg {
+    background: rgb(84, 44, 152);
+    
+    width: 99%;
+    padding: 6px ;
+    
+    
+
+    
+}
+     
+.text-input-salida{
+
+
+
+    padding: 8px;
+    border-radius: 30px;
+    width: 500px;
+    margin: 15px 30%;
+
+
+
+}
+
+
+
+.pie{
+    width: 100%;
+    padding: 2px;
+    margin-top: 12px;
+    border-radius: 9px;
+
+}
+
+
+
+
+
+   
+
+  
